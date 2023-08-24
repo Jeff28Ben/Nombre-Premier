@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: ;
+  overflow-y: hidden;
+}
+.main {
+  width: 90%;
+  height: 500px;
+  background-image: linear-gradient(to top right, #00f, #0ff);
+  border-radius: 30px;
+  margin: 50px auto;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 100;
+}
+#affichage {
+  width: 100%;
+  height: 130px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom left, red, yellow);
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: ;
+  color: #222;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+/* .main::before {
+  content: ' ';
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+.main::after {
+  content: ' ';
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: fixed;
+  border-radius: 50%;
+  z-index: 1;
+  bottom: 20%;
+  right: 5%;
+} */
+.saisie {
+  width: 100%;
+  height: 30%;
+  border-radius: 20px;
+  background-image: linear-gradient(to top right, red, yellow);
+  border: 2px solid black;
+  margin-top: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+input[type=number]{
+  width: 75%;
+  height: 50px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00f;
+  opacity: 0.8;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.button{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  padding: 10px;
+}
+button {
+  width: 80px;
+  height: 40px;
+  background-color: var(--i);
+  color: #eee;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 40px;
+}
+button:hover {
+  background-color: #eee;
+  color: var(--i);
+  border: 2px solid var(--i);
+}
+.titre {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 20px;
+}

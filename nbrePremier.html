@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nombre Premier</title>
+  <link rel="stylesheet" href="nbrePremier.css">
+  
+</head>
+<body>
+  <div class="main">
+      <p class="titre" id="aff">Voulez-vous vérifier si un nombre est premier ??? Alors c'est parti !!</p>
+      
+    <div id="affichage">  
+      <!-- Zone d'affichage du résultat attendu -->
+    </div>
+    
+    <div class="saisie">
+      <!-- Zone de réception du nombre entré par l'utilisateur -->
+      <input type="number" id="saisie" placeholder="Entrez votre nombre ici !!">
+
+      <p class="button">
+        <!-- Ceci reçoit le click de l'utilisateur et renvoie le résultat attendu grâce à la fonction nbreP() du script-->
+        <button onclick="nbreP()" style="--i:blue">Vérifier</button>
+        <!-- Ceci nettoie les zones d'affichage et de réception-->
+        <button onclick="nbreE()" style="--i:red">Effacer</button>
+      </p>  
+    </div>
+    
+  </div>
+  
+  
+  <script src="nbrePremier.js"></script>
+</body>
+</html>
